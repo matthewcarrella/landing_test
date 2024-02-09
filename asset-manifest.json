@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "https://matthewcarrella.github.io/p1nwear/static/css/main.ae42ac5f.css",
-    "main.js": "https://matthewcarrella.github.io/p1nwear/static/js/main.601d032c.js",
-    "index.html": "https://matthewcarrella.github.io/p1nwear/index.html",
-    "main.ae42ac5f.css.map": "https://matthewcarrella.github.io/p1nwear/static/css/main.ae42ac5f.css.map",
-    "main.601d032c.js.map": "https://matthewcarrella.github.io/p1nwear/static/js/main.601d032c.js.map"
+    "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css",
+    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.601d032c.js",
+    "index.html": "https://matthewcarrella.github.io/landing_test/index.html",
+    "main.ae42ac5f.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css.map",
+    "main.601d032c.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.601d032c.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
