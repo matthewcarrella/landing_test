@@ -161,22 +161,22 @@
   },
   "Features": [
     {
-      "icon": "fa fa-shirt",
+      "icon": "fa fa-eye",
       "title": "Fashion",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-futbol-o",
       "title": "Sports",
       "text": "Lore ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-heartbeat",
       "title": "Fitness",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-music",
       "title": "Music",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
