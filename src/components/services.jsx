@@ -26,7 +26,7 @@ export const Services = (props) => {
               ))
             : "loading"}
 
-             <YoutubeEmbed embedId="vkwMmMmaWis?si=o5NZrj1g3Z6VFyWb" />
+             <YouTubeEmbed embedId="vkwMmMmaWis?si=o5NZrj1g3Z6VFyWb" />
         </div>
       </div>
     </div>
