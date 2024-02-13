@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "We are a Landing Page TEST TEST",
+    "title": "PINWEAR ATHLETICS AND ACTIVEWEAR",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
@@ -67,35 +67,35 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-shopping-cart",
+      "name": "Store",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-youtube-play",
+      "name": "YouTube Channel",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-calendar",
+      "name": "Upcoming Events",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-handshake-o",
+      "name": "Partners",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
+    // {
+    //   "icon": "fa fa-plane",
+    //   "name": "Lorem ipsum dolor",
+    //   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    // },
+    // {
+    //   "icon": "fa fa-pie-chart",
+    //   "name": "Consectetur adipiscing",
+    //   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    // }
   ],
   "Testimonials": [
     {
