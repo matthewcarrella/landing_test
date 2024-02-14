@@ -636,10 +636,3 @@ label {
   margin: 0 50px;
 }
 
-.my-slider {
-  background-repeat:no-repeat;
-  background-position: none;
-  background-size:100%;
-  height:0;width:100%;
-  padding-bottom:50%;
-  }

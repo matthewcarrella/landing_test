@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css",
-    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.de715393.js",
+    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.c93fc800.js",
     "index.html": "https://matthewcarrella.github.io/landing_test/index.html",
     "main.ae42ac5f.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css.map",
-    "main.de715393.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.de715393.js.map"
+    "main.c93fc800.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.c93fc800.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
-    "static/js/main.de715393.js"
+    "static/js/main.c93fc800.js"
   ]
 }
