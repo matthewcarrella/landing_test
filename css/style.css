@@ -642,5 +642,6 @@ label {
 }
 
 .my-slider {
-  height: 100%;
+  height: 50%;
+  margin-bottom: 0;
 }
