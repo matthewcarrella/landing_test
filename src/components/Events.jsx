@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
-function Events() {
+export const Events = (props) => {
   return (
     <Carousel>
       <Carousel.Item>
@@ -31,4 +31,3 @@ function Events() {
   );
 }
 
-export default Events;
