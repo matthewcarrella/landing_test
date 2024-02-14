@@ -9,7 +9,7 @@ export const Events = (props) => {
     slidesToScroll: 1
   };
   return (
-    <Slider {...settings}>
+    <Slider style="line-height:0;" {...settings}>
       <div class="slider-item">
         <h3>1</h3>
       </div>
