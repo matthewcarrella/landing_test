@@ -631,17 +631,18 @@ label {
 
 .slider-h3 {
   font-size: 40px;
-  background-color: blue;
+
   display: flex;
   justify-content: center;
   border-radius: 5px;
+  height: 100%;
 /*  padding: 150px 0;*/
   margin: 0px auto;
   font-family: sans-serif;
 /*  margin: 0 50px;*/
 }
 
-.my-slider {
-  height: 50%;
-  margin-bottom: 0;
+.slider-item {
+  height: 100%;
+  background-color: blue;
 }

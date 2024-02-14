@@ -16,23 +16,23 @@ export const Events = (props) => {
   return (
     <div>
       <h2 class="slider-h2">Upcoming Events</h2>
-      <Slider class="my-slider" {...settings}>
-        <div>
+      <Slider {...settings}>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 1</h3>
         </div>
-        <div>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 2</h3>
         </div>
-        <div>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 3</h3>
         </div>
-        <div>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 4</h3>
         </div>
-        <div>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 5</h3>
         </div>
-        <div>
+        <div class="slider-item">
           <h3 class="slider-h3">SLIDE 6</h3>
         </div>
       </Slider>
