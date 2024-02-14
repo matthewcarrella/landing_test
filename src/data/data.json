@@ -70,21 +70,25 @@
   "Services": [
     {
       "icon": "fa fa-shopping-cart",
+      "link": "https://pinwear.com/",
       "name": "Store",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-youtube-play",
+      "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
       "name": "YouTube Channel",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-calendar",
+      "link": "",
       "name": "Upcoming Events",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-users", 
+      "icon": "fa fa-users",
+      "link": "", 
       "name": "Partners",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }

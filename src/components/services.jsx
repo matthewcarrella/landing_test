@@ -17,11 +17,13 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
+                  <a href={d.link}>
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
                   </div>
+                  </a>
                 </div>
               ))
             : "loading"}
