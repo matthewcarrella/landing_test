@@ -640,3 +640,7 @@ label {
   font-family: sans-serif;
   margin: 0 50px;
 }
+
+.my-slider {
+  height: 100%;
+}
