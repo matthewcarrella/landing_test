@@ -1,33 +1,41 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 export const Events = (props) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+  };
   return (
-    <Carousel>
-      <Carousel.Item>
-        {/*<ExampleCarouselImage text="First slide" />*/}
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        {/*<ExampleCarouselImage text="Second slide" />*/}
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        {/*<ExampleCarouselImage text="Third slide" />*/}
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div>
+      <h2> Basic Carousel Component</h2>
+      <Slider {...settings}>
+        <div>
+          <h3>SLIDE 1</h3>
+        </div>
+        <div>
+          <h3>SLIDE 2</h3>
+        </div>
+        <div>
+          <h3>SLIDE 3</h3>
+        </div>
+        <div>
+          <h3>SLIDE 4</h3>
+        </div>
+        <div>
+          <h3>SLIDE 5</h3>
+        </div>
+        <div>
+          <h3>SLIDE 6</h3>
+        </div>
+      </Slider>
+    </div>
   );
-}
-
+};
