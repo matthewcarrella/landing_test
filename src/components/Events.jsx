@@ -16,7 +16,7 @@ export const Events = (props) => {
   return (
     <div>
       <h2 class="slider-h2">Upcoming Events</h2>
-      <Slider {...settings}>
+      <Slider class="my-slider" {...settings}>
         <div>
           <h3 class="slider-h3">SLIDE 1</h3>
         </div>
