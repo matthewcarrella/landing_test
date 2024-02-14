@@ -4,38 +4,33 @@ import 'slick-carousel/slick/slick-theme.css';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 export const Events = (props) => {
-  const settings = {
+ var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
+    slidesToScroll: 1
   };
   return (
-    <div>
-      <h2 class="slider-h2">Upcoming Events</h2>
-      <Slider {...settings}>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 1</h3>
-        </div>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 2</h3>
-        </div>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 3</h3>
-        </div>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 4</h3>
-        </div>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 5</h3>
-        </div>
-        <div class="slider-item">
-          <h3 class="slider-h3">SLIDE 6</h3>
-        </div>
-      </Slider>
-    </div>
+    <Slider {...settings}>
+      <div>
+        <h3>1</h3>
+      </div>
+      <div>
+        <h3>2</h3>
+      </div>
+      <div>
+        <h3>3</h3>
+      </div>
+      <div>
+        <h3>4</h3>
+      </div>
+      <div>
+        <h3>5</h3>
+      </div>
+      <div>
+        <h3>6</h3>
+      </div>
+    </Slider>
   );
 };
