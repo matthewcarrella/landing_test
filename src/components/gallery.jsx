@@ -1,6 +1,6 @@
 // import { Image } from "./image";
 // import React from "react";
-import Masonry from "react-responsive-masonry"
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 
 export const Gallery = (props) => {
   return (
