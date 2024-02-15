@@ -20,7 +20,7 @@ export const Events = (props) => {
       <h1 className="header">Car Gallery</h1>
       <div className="container">
         <Slider {...settings}>
-          { props.data ? props.map((d, i) => (
+          { props.data ? props.data.map((d, i) => (
             <div key={i}>
               <img src={d.src} alt={d.alt} className="img" />
               <h2 className="title">{d.title}</h2>
