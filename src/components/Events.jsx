@@ -92,15 +92,15 @@ export const Events = (props) =>  {
   return (
 
   <>
-    <div className="content">
-      <h1 className="header">Car Gallery</h1>
-      <div className="container">
+    <div className="sl-content">
+      <h1 className="sl-header">Car Gallery</h1>
+      <div className="sl-container">
         <Slider {...settings}>
           {Images.map((item) => (
             <div key={item.id}>
-              <img src={item.src} alt={item.alt} className="img" />
-              <h2 className="title">{item.title}</h2>
-              <p className="description">{item.description}</p>
+              <img src={item.src} alt={item.alt} className="sl-img" />
+              <h2 className="sl-title">{item.title}</h2>
+              <p className="sl-description">{item.description}</p>
             </div>
           ))}
         </Slider>
