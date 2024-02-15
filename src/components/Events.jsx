@@ -41,6 +41,6 @@ const responsive = {
   itemClass="carousel-item-padding-40-px"
 >
    { props.data ? props.data.map((d, i) => (
-    <h2>test</h2>)) : "Loading..."};
+    <div>test</div>)) : "Loading..."};
 </Carousel>);
 };
