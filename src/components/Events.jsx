@@ -40,7 +40,7 @@ const responsive = {
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
-   { props.data ? props.data.map(d, i) => (
+   { props.data ? props.data.map((d, i) => (
     <h2>test</h2>)) : "Loading..."};
 </Carousel>);
 };
