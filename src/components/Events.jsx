@@ -1,21 +1,21 @@
-import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import ImageGallery from "react-image-gallery";
 
-const handleDragStart = (e) => e.preventDefault();
-const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 },
-};
-
+const images = [
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/",
+  },
+];
 
 export const Events = (props) => {
-  const items = props.data ? props.data.map((d, i) => 
-  <img src={d.largeImage} onDragStart={handleDragStart} role="presentation" />) : [];
 
-
-  return (
-    <AliceCarousel mouseTracking autoWidth items={items} responsive={responsive}/>
-  );
-}
+    return (<ImageGallery items={images} />);
+  }
