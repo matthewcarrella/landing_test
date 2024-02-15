@@ -630,3 +630,11 @@ label {
     width: 50%;
     height: 50%;
 }
+
+ul.slick-dots{
+  bottom: 0;
+}
+
+section.slick-dotted.slick-slider{
+  margin-bottom:0;
+} 
