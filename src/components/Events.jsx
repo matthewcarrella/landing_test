@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.css'; 
 
 export const Events = (props) => {
   return ( 
