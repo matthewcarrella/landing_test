@@ -16,6 +16,6 @@ export const Events = (props) => {
 
 
   return (
-    <AliceCarousel mouseTracking items={items} responsive={responsive}/>
+    <AliceCarousel mouseTracking autoWidth items={items} responsive={responsive}/>
   );
 }
