@@ -13,6 +13,50 @@ const settings = {
   autoplaySpeed: 1000,
 };
 
+const GalleryImages = [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_2166_Original.jpg",
+      "smallImage": "img/portfolio/IMG_2166_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_0039_Original.jpg",
+      "smallImage": "img/portfolio/IMG_0039_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/20191109_173856.jpg",
+      "smallImage": "img/portfolio/20191109_173856.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_4492_Original.jpg",
+      "smallImage": "img/portfolio/IMG_4492_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_3059_Original.jpg",
+      "smallImage": "img/portfolio/IMG_3059_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_8104_Original.jpg",
+      "smallImage": "img/portfolio/IMG_8104_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_4460_Original.jpg",
+      "smallImage": "img/portfolio/IMG_4460_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/IMG_3776_Original.jpg",
+      "smallImage": "img/portfolio/IMG_3776_Original.jpg"
+    },
+ 
+  ];
+
 const Images = [
   {
     id: 1,
@@ -120,13 +164,13 @@ export const Events = (props) =>  {
       <h1 className="sl-header">Car Gallery</h1>
       <div className="sl-container">
         <Slider {...settings}>
-          {props.data ? props.data.map((d, i) => (
+          {GalleryImages.map((d, i) => (
             <div key={i}>
               <img src={d.largeImage} alt="" className="sl-img" />
               <h2 className="sl-title">{d.title}</h2>
               <p className="sl-description">test test test</p>
             </div>
-          )) : "...Loading"}
+          ))}
         </Slider>
       </div>
     </div>
