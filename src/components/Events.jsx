@@ -156,6 +156,30 @@ const Images = [
 // }
 
 
+// export const Events = (props) =>  {
+//   return (
+
+//   <>
+//     <div className="sl-content">
+//       <h1 className="sl-header">Car Gallery</h1>
+//       <div className="sl-container">
+//         <Slider {...settings}>
+//           {GalleryImages.map((d, i) => (
+//             <div key={i}>
+//               <img src={d.largeImage} alt="" className="sl-img" />
+//               <h2 className="sl-title">{d.title}</h2>
+//               <p className="sl-description">test test test</p>
+//             </div>
+//           ))}
+//         </Slider>
+//       </div>
+//     </div>
+//   </>
+
+//   );
+// }
+
+
 export const Events = (props) =>  {
   return (
 
@@ -164,13 +188,14 @@ export const Events = (props) =>  {
       <h1 className="sl-header">Car Gallery</h1>
       <div className="sl-container">
         <Slider {...settings}>
-          {GalleryImages.map((d, i) => (
-            <div key={i}>
+          {props.data ? props.data.map((d, i) => (
+   <div key={i}>
               <img src={d.largeImage} alt="" className="sl-img" />
               <h2 className="sl-title">{d.title}</h2>
               <p className="sl-description">test test test</p>
             </div>
-          ))}
+  )) : "...Loading"}
+
         </Slider>
       </div>
     </div>
