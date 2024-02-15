@@ -676,3 +676,16 @@ section.slick-dotted.slick-slider{
   font-size: 25px;
   margin: 20px auto;
 }
+
+.slick-prev {
+  left: -52px !important;
+}
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #000000;
+  font-size: 45px;
+}

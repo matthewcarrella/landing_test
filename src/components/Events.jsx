@@ -37,7 +37,18 @@ const settings = {
           slidesToScroll: 1
         }
       }
-    ]
+    ],
+
+    nextArrow: (
+    <div>
+      <div className="next-slick-arrow"> ⫸ </div>
+    </div>
+  ),
+  prevArrow: (
+    <div>
+      <div className="prev-slick-arrow"> ⫷ </div>
+    </div>
+  ),
 };
 
 const GalleryImages = [
@@ -212,7 +223,7 @@ export const Events = (props) =>  {
 
   <>
     <div className="sl-content">
-      <h1 className="sl-header">Gallery</h1>
+      <h1 className="sl-header">Products</h1>
       <div className="sl-container">
         <Slider {...settings}>
           {props.data ? props.data.map((d, i) => (
