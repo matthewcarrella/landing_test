@@ -3,6 +3,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 export const Events = (props) => {
   return (
+    <h2>TEST</h2>
   <AwesomeSlider>
     <div>1</div>
     <div>2</div>
