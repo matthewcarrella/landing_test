@@ -126,7 +126,7 @@ export const Events = (props) =>  {
               <h2 className="sl-title">{d.title}</h2>
               <p className="sl-description">test test test</p>
             </div>
-          ))}
+          )) : "...Loading"}
         </Slider>
       </div>
     </div>
