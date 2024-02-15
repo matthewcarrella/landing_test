@@ -88,6 +88,30 @@ const Images = [
   },
 ];
 
+// export const Events = (props) =>  {
+//   return (
+
+//   <>
+//     <div className="sl-content">
+//       <h1 className="sl-header">Car Gallery</h1>
+//       <div className="sl-container">
+//         <Slider {...settings}>
+//           {Images.map((item) => (
+//             <div key={item.id}>
+//               <img src={item.src} alt={item.alt} className="sl-img" />
+//               <h2 className="sl-title">{item.title}</h2>
+//               <p className="sl-description">{item.description}</p>
+//             </div>
+//           ))}
+//         </Slider>
+//       </div>
+//     </div>
+//   </>
+
+//   );
+// }
+
+
 export const Events = (props) =>  {
   return (
 
@@ -96,11 +120,11 @@ export const Events = (props) =>  {
       <h1 className="sl-header">Car Gallery</h1>
       <div className="sl-container">
         <Slider {...settings}>
-          {Images.map((item) => (
-            <div key={item.id}>
-              <img src={item.src} alt={item.alt} className="sl-img" />
-              <h2 className="sl-title">{item.title}</h2>
-              <p className="sl-description">{item.description}</p>
+          {props.data ? props.data.map((d, i) => (
+            <div key={i}>
+              <img src={d.largeImage} alt="" className="sl-img" />
+              <h2 className="sl-title">{d.title}</h2>
+              <p className="sl-description">test test test</p>
             </div>
           ))}
         </Slider>
