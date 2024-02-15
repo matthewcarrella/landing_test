@@ -1,56 +1,33 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-const images = [
-    {
-        id: 1,
-        src: "https://picsum.photos/id/1018/1000/600/",
-        alt: "Image 1",
-    },
-    {
-        id: 2,
-        src: "https://picsum.photos/id/1015/1000/600/",
-        alt: "Image 2 ",
-    },
-    {
-        id: 3,
-        src: "https://picsum.photos/id/1019/1000/600/",
-        alt: "Image 3",
-    },
-];
-
-const ImageSlider = ({ images }) => {
-    const settings = {
-        infinite: true,
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        lazyLoad: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-    };
-    return (
-        <>
-            <div className="tag">
-                <h1>imaage Gallery</h1>
-            </div>
-            <div className="imgslider">
-                <Slider {...settings}>
-                    {images.map((item) => (
-                        <div key={item.id}>
-                            <img
-                                src={item.src}
-                                alt={item.alt}
-                            />
-                        </div>
-                    ))}
-                </Slider>
-            </div>
-        </>
-    );
-};
+import Carousel from 'react-bootstrap/Carousel';
 
 export const Events = (props) => {
-    return ( <ImageSlider images={images} />);
-  };
+  return ( 
+    <div style={{ display: 'block', width: 700, padding: 30 }}> 
+      <h4>React-Bootstrap Carousel Component</h4> 
+      <Carousel> 
+        <Carousel.Item interval={1500}> 
+          <img 
+            className="d-block w-100"
+src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+            alt="Image One"
+          /> 
+          <Carousel.Caption> 
+            <h3>Label for first slide</h3> 
+            <p>Sample Text for Image One</p> 
+          </Carousel.Caption> 
+        </Carousel.Item> 
+        <Carousel.Item interval={500}> 
+          <img 
+            className="d-block w-100"
+src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+            alt="Image Two"
+          /> 
+          <Carousel.Caption> 
+            <h3>Label for second slide</h3> 
+            <p>Sample Text for Image Two</p> 
+          </Carousel.Caption> 
+        </Carousel.Item> 
+      </Carousel> 
+    </div> 
+  ); 
+}
