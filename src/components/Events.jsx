@@ -1,3 +1,4 @@
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
@@ -185,7 +186,7 @@ export const Events = (props) =>  {
 
   <>
     <div className="sl-content">
-      <h1 className="sl-header">Car Gallery</h1>
+      <h1 className="sl-header">Gallery</h1>
       <div className="sl-container">
         <Slider {...settings}>
           {props.data ? props.data.map((d, i) => (
@@ -194,7 +195,7 @@ export const Events = (props) =>  {
               <h2 className="sl-title">{d.title}</h2>
               <p className="sl-description">test test test</p>
             </div>
-  )) : "...Loading"}
+  )) : <div>"...Loading"</div>}
 
         </Slider>
       </div>
