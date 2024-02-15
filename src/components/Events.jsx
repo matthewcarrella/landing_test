@@ -21,11 +21,12 @@ export const Events = (props) => {
       <div className="container">
         <Slider {...settings}>
           { props.data ? props.data.map((d, i) => (
-            <div key={i}>
-              <img src={d.src} alt={d.alt} className="img" />
-              <h2 className="title">{d.title}</h2>
-              <p className="description">{d.description}</p>
-            </div>
+            <h2>test</h2>
+            // <div key={i}>
+            //   <img src={d.src} alt={d.alt} className="img" />
+            //   <h2 className="title">{d.title}</h2>
+            //   <p className="description">{d.description}</p>
+            // </div>
           ))               : "Loading..."}
         </Slider>
       </div>
