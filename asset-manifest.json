@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.c5e211fb.css",
-    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.24f764db.js",
-    "static/media/slick.svg": "https://matthewcarrella.github.io/landing_test/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "https://matthewcarrella.github.io/landing_test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "https://matthewcarrella.github.io/landing_test/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css",
+    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.8e062285.js",
     "index.html": "https://matthewcarrella.github.io/landing_test/index.html",
-    "static/media/slick.woff": "https://matthewcarrella.github.io/landing_test/static/media/slick.295183786cd8a1389865.woff",
-    "main.c5e211fb.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.c5e211fb.css.map",
-    "main.24f764db.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.24f764db.js.map"
+    "main.ae42ac5f.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.ae42ac5f.css.map",
+    "main.8e062285.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.8e062285.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e211fb.css",
-    "static/js/main.24f764db.js"
+    "static/css/main.ae42ac5f.css",
+    "static/js/main.8e062285.js"
   ]
 }
