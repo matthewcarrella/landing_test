@@ -28,8 +28,13 @@
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/IMG_2166_Original.jpg",
-      "smallImage": "img/portfolio/IMG_2166_Original.jpg"
+      "largeImage": "img/portfolio/IMG_0039_Original.jpg",
+      "smallImage": "img/portfolio/IMG_0039_Original.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/20191109_173856.jpg",
+      "smallImage": "img/portfolio/20191109_173856.jpg"
     },
     {
       "title": "Project Title",
@@ -61,16 +66,7 @@
       "largeImage": "img/portfolio/IMG_2166_Original.jpg",
       "smallImage": "img/portfolio/IMG_2166_Original.jpg"
     },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/IMG_2166_Original.jpg",
-      "smallImage": "img/portfolio/IMG_2166_Original.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/IMG_2166_Original.jpg",
-      "smallImage": "img/portfolio/IMG_2166_Original.jpg"
-    }
+
  
   ],
   "Services": [
