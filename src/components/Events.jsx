@@ -3,6 +3,11 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 const handleDragStart = (e) => e.preventDefault();
+const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 3 },
+};
 
 
 export const Events = (props) => {
@@ -11,6 +16,6 @@ export const Events = (props) => {
 
 
   return (
-    <AliceCarousel mouseTracking items={items} />
+    <AliceCarousel mouseTracking items={items} responsive={responsive}/>
   );
 }
