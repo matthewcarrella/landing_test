@@ -15,6 +15,6 @@ const images = [
   },
 ];
 
-const Events = (props) => {
+export const Events = (props) => {
     return (<ImageGallery items={images} />);
   };
