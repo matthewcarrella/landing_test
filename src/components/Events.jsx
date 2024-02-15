@@ -21,7 +21,7 @@ export const Events = (props) => {
       <div className="container">
         <Slider {...settings}>
           { props.data ? props.map((d, i) => (
-            <div key={`${d.title}-${i}`}>
+            <div key={i}>
               <img src={d.src} alt={d.alt} className="img" />
               <h2 className="title">{d.title}</h2>
               <p className="description">{d.description}</p>
