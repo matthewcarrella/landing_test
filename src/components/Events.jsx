@@ -6,10 +6,8 @@ export const Events = (props) => {
     <div>
     <h2>TEST</h2>
   <AwesomeSlider>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+    { props.data ? props.data.map((d, i) => (
+       <div data-src={d.largeImage} />)) : "...Loading"}
   </AwesomeSlider>
   </div>
 );
