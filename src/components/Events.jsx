@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AfroStyles from "./data/afroStyles.js";
+import AfroStyles from "../data/afroStyles.js";
 
 export const Events = (props) => {
   const [nav1, setNav1] = useState(null);
