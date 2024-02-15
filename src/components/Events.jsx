@@ -40,15 +40,11 @@ const settings = {
     ],
 
     nextArrow: (
-      <div class="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</div>
+     <div>&gt;</div>
     
   ),
   prevArrow: (
-    <div class="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</div>
+    <div>&lt;</div>
   ),
 };
 
