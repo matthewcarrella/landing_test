@@ -70,7 +70,7 @@ export const Events = (props) => {
                 <img src={d.largeImage} alt="" />
               </div>
             </div>
-          ))}
+          ))};
         </Slider>
         <div className="thumb-wrapper">
           {props.data ? props.map((d, i) => (
