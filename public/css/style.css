@@ -625,12 +625,12 @@ label {
 
 
 
-/*.slick-slide img {
+.slick-slide img {
     margin: auto;
     width: 50%;
 
 }
-*/
+
 ul.slick-dots{
   bottom: 0;
 }
