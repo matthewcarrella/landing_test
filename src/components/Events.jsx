@@ -40,14 +40,15 @@ const settings = {
     ],
 
     nextArrow: (
-    <div>
-      <div className="next-slick-arrow"> &gt; </div>
-    </div>
+      <div class="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</div>
+    
   ),
   prevArrow: (
-    <div>
-      <div className="prev-slick-arrow"> ⫷&lt; </div>
-    </div>
+    <div class="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</div>
   ),
 };
 
