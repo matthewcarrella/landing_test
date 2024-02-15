@@ -631,9 +631,11 @@ label {
 
 }
 
-ul.slick-dots{
-  bottom: 0;
+.slick-dots {
+  bottom: 50px;
 }
+
+
 
 section.slick-dotted.slick-slider{
   margin-bottom:0;
