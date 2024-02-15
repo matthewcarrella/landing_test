@@ -65,7 +65,7 @@ export const Events = (props) => {
             ref={(slider) => setSlider1(slider)}
         >
           {props.data ? props.map((d, i) => (
-            <div  key=`${i}`>
+            <div  key={i}>
               <div className="img-body">
                 <img src={d.largeImage} alt="" />
               </div>
@@ -75,7 +75,7 @@ export const Events = (props) => {
         <div className="thumb-wrapper">
           {props.data ? props.map((d, i) => (
             <div 
-              key=`${i}` 
+              key={i}
               className={currentSlide === i ? "active": null} 
               onClick={() => {
                 slider1?.slickGoTo(i)
