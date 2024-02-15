@@ -25,6 +25,7 @@ export const Events = (props) => {
               <img src={d.largeImage} alt="" className="img" />
               <h2 className="title">{d.title}</h2>
               <p className="description">"testinig"</p>
+              </div>
          
           ))               : "Loading..."}
         </Slider>
