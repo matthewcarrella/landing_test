@@ -3,11 +3,14 @@
 import Masonry from "react-responsive-masonry"
 
 export const Gallery = (props) => {
-  return (<Masonry gutter={4} columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
+  return (
+      <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
+      <Masonry gutter={4}>
   {props.data ? props.data.map((d, i) => (
     <img src={d.largeImage} />
   )) : "...Loading"}
 </Masonry>
+</ResponsiveMasonry>
 
 );
 };
