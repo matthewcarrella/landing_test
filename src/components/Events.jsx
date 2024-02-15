@@ -33,7 +33,7 @@ const ImageSlider = ({ images }) => {
     return (
         <>
             <div className="tag">
-                <h1>Image Gallery</h1>
+                <h1>image Gallery</h1>
             </div>
             <div className="imgslider">
                 <Slider {...settings}>
