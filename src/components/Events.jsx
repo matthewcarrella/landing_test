@@ -1,37 +1,27 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Carousel from 'react-bootstrap/Carousel';
 
 export const Events = (props) => {
-  const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1000,
-};
-  return (
-   
-  <>
-    <div className="content">
-      <h1 className="header">Car Gallery</h1>
-      <div className="container">
-        <Slider {...settings}>
-          { props.data ? props.data.map((d, i) => (
-        
-            <div key={`${d.title}-${i}`}>
-              <img src={d.largeImage} alt="" className="img" />
-              <h2 className="title">{d.title}</h2>
-              <p className="description">"testinig"</p>
-              </div>
-         
-          ))               : "Loading..."}
-        </Slider>
-      </div>
-    </div>
-  </>
-);
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
+  return (
+    <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} pause={false}>
+       { props.data ? props.data.map((slide, i) => (
+          <Carousel.Item>        
+        <img
+          className="d-block w-100"
+          src={slide.largeImage}
+          alt="slider image"
+        />
+        <Carousel.Caption>
+          <h3>{slide.title}</h3>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+        )) : "Loading..."}
+      
+    </Carousel>
+  );
 };
