@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import React, { useState } from 'react';
 
 export const Events = (props) => {
   const [index, setIndex] = useState(0);
