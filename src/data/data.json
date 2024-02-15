@@ -172,7 +172,7 @@
 
    "Images": [
   {
-    "id": 1,
+    "id": "1",
     "src": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "alt": "Image 1",
     "title": "Lamborghini Huracan Performante",
@@ -180,7 +180,7 @@
       "The Huracán Performante has reworked the concept of super sports cars and taken the notion of performance to levels never seen before.",
   },
   {
-    "id": 2,
+    "id": "2",
     "src": "https://images.unsplash.com/photo-1594502184342-2e12f877aa73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
     "alt": "Image 2 ",
     "title": "Porsche 911 Turbo S",
@@ -188,7 +188,7 @@
       "This Turbo S variant comes with an engine putting out 641 bhp @ 6750 rpm and 800 Nm @ 2500 rpm of max power and max torque respectively.",
   },
   {
-    "id": 3,
+    "id": "3",
     "src": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "alt": "Image 3",
     "title": "Ford Mustang",
@@ -197,7 +197,7 @@
       "For offroad lovers. Super fast, Super Comfortable.",
   },
   {
-    "id": 4,
+    "id": "4",
     "src": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80",
     "alt": "Image 4",
     "title": "Lamborghini Aventador SV",
