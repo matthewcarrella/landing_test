@@ -81,6 +81,12 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "icon": "fa fa-instagram",
+      "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
+      "name": "Instagram",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
       "icon": "fa fa-calendar",
       "link": "",
       "name": "Upcoming Events",
