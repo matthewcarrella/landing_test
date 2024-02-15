@@ -41,12 +41,12 @@ const settings = {
 
     nextArrow: (
     <div>
-      <div className="next-slick-arrow"> &#10146;⫸ </div>
+      <div className="next-slick-arrow"> &gt; </div>
     </div>
   ),
   prevArrow: (
     <div>
-      <div className="prev-slick-arrow">  &#11163;⫷ </div>
+      <div className="prev-slick-arrow"> ⫷&lt; </div>
     </div>
   ),
 };
