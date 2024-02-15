@@ -13,24 +13,24 @@ export const Events = (props) => {
   autoplaySpeed: 1000,
 };
   return (
-    <h2>test</h2>
-  // <>
-  //   <div className="content">
-  //     <h1 className="header">Car Gallery</h1>
-  //     <div className="container">
-  //       <Slider {...settings}>
-  //         { props.data ? props.data.map((d, i) => (
-  //           <h2>test</h2>
-  //           // <div key={i}>
-  //           //   <img src={d.src} alt={d.alt} className="img" />
-  //           //   <h2 className="title">{d.title}</h2>
-  //           //   <p className="description">{d.description}</p>
-  //           // </div>
-  //         ))               : "Loading..."}
-  //       </Slider>
-  //     </div>
-  //   </div>
-  // </>
+   
+  <>
+    <div className="content">
+      <h1 className="header">Car Gallery</h1>
+      <div className="container">
+        <Slider {...settings}>
+          { props.data ? props.data.map((d, i) => (
+            <h2>test</h2>
+            <div key={i}>
+              <img src={d.largeImage} alt="" className="img" />
+              <h2 className="title">{d.title}</h2>
+              <p className="description">"testinig"</p>
+         
+          ))               : "Loading..."}
+        </Slider>
+      </div>
+    </div>
+  </>
 );
 
 };
