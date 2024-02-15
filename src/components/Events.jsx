@@ -1,34 +1,93 @@
-import React from 'react'; 
-import Carousel from 'react-bootstrap/Carousel'; 
+import React from "react";
+import { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import AfroStyles from "./data/afroStyles";
 
-export const Events = (props) => { 
-  return ( 
-    <div style={{ display: 'block', width: 700, padding: 30 }}> 
-      <h4>React-Bootstrap Carousel Component</h4> 
-      <Carousel> 
-        <Carousel.Item interval={1500}> 
-          <img 
-            className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-            alt="Image One"
-          /> 
-          <Carousel.Caption> 
-            <h3>Label for first slide</h3> 
-            <p>Sample Text for Image One</p> 
-          </Carousel.Caption> 
-        </Carousel.Item> 
-        <Carousel.Item interval={500}> 
-          <img 
-            className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          /> 
-          <Carousel.Caption> 
-            <h3>Label for second slide</h3> 
-            <p>Sample Text for Image Two</p> 
-          </Carousel.Caption> 
-        </Carousel.Item> 
-      </Carousel> 
-    </div> 
-  ); 
-}
+export const Events = (props) => {
+  const [nav1, setNav1] = useState(null);
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const [slider1, setSlider1] = useState(null);
+  useEffect(() => {
+    setNav1(slider1);
+  }, [slider1]);
+
+  const settings = {
+    dots: true,
+    speed: 1000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    onReInit: () => setCurrentSlide(slider1?.innerSlider.state.currentSlide),
+    autoplaySpeed: 1000,
+    lazyLoad: true,
+    asNavFor: ".slider-nav",
+    focusOnSelect: true,
+    nextArrow: (
+      <div>
+        <div className="next-slick-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="black" height="24" viewBox="0 -960 960 960" width="24"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
+        </div>
+      </div>
+    ),
+    prevArrow: (
+      <div>
+        <div className="next-slick-arrow rotate-180">
+          <svg xmlns="http://www.w3.org/2000/svg" stroke="black" height="24" viewBox="0 -960 960 960" width="24"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
+        </div>
+      </div>
+    ),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+         slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+         slidesToShow: 1,
+        }
+       }
+    ]
+  };
+
+  return (
+    <>
+    <div className="content">
+      <h1 className="header">Afro Styles Fashion Store</h1>
+      <div className="container">
+        <Slider {...settings}
+            asNavFor={nav1}
+            ref={(slider) => setSlider1(slider)}
+        >
+          {props.data ? props.map((d, i) => (
+            <div  key=`${i}`>
+              <div className="img-body">
+                <img src={d.largeImage} alt="" />
+              </div>
+            </div>
+          ))}
+        </Slider>
+        <div className="thumb-wrapper">
+          {props.data ? props.map((d, i) => (
+            <div 
+              key=`${i}` 
+              className={currentSlide === i ? "active": null} 
+              onClick={() => {
+                slider1?.slickGoTo(i)
+              }}>
+              <img src={d.smallImage} alt=""/>
+              {currentSlide}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </>
+  );
+};
+
