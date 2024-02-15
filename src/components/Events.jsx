@@ -64,23 +64,23 @@ export const Events = (props) => {
             asNavFor={nav1}
             ref={(slider) => setSlider1(slider)}
         >
-          {props.data ? props.map((d, i) => (
-            <div  key={i}>
+          {AfroStyles.map((item) => (
+            <div  key={item.id}>
               <div className="img-body">
-                <img src={d.largeImage} alt="" />
+                <img src={item.src} alt={item.alt} />
               </div>
             </div>
-          ))};
+          ))}
         </Slider>
         <div className="thumb-wrapper">
-          {props.data ? props.map((d, i) => (
+          {AfroStyles.map((item, idx) => (
             <div 
-              key={i}
-              className={currentSlide === i ? "active": null} 
+              key={item.id} 
+              className={currentSlide === idx ? "active": null} 
               onClick={() => {
-                slider1?.slickGoTo(i)
+                slider1?.slickGoTo(idx)
               }}>
-              <img src={d.smallImage} alt=""/>
+              <img src={item.src} alt={item.alt}/>
               {currentSlide}
             </div>
           ))}
@@ -90,4 +90,3 @@ export const Events = (props) => {
   </>
   );
 };
-
