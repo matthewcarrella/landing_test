@@ -12,7 +12,7 @@ const responsive = {
 
 export const Events = (props) => {
   const items = props.data ? props.data.map((d, i) => 
-  <img style="height: auto;max-width: 100%;" src={d.largeImage} onDragStart={handleDragStart} role="presentation" />) : [];
+  <img src={d.largeImage} onDragStart={handleDragStart} role="presentation" />) : [];
 
 
   return (
