@@ -83,12 +83,12 @@
       "text": "Follow us for daily fashion inspiration and exclusive offers that will elevate your wardrobe to new heights! "
     },
     
-    {
-      "icon": "fa fa-envelope-o",
-      "link": "#contact", 
-      "name": "Contact",
-      "text": "Are you interested in learning more about our brand? We'd love to hear from you."
-    }
+    // {
+    //   "icon": "fa fa-envelope-o",
+    //   "link": "#contact", 
+    //   "name": "Contact",
+    //   "text": "Are you interested in learning more about our brand? We'd love to hear from you."
+    // }
    
   ],
   "Testimonials": [
