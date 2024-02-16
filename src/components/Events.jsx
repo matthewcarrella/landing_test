@@ -227,7 +227,7 @@ export const Events = (props) =>  {
    <div key={i}>
               <img src={d.largeImage} alt="" className="sl-img" />
               <h2 className="sl-title">{d.title}</h2>
-              <p className="sl-description">test test test</p>
+
             </div>
   )) : <div>"...Loading"</div>}
 
