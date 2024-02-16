@@ -68,19 +68,19 @@
       "icon": "fa fa-shopping-cart",
       "link": "https://pinwear.com/",
       "name": "Store",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Step into style with our online store, where fashion meets convenience! Discover curated collections featuring the latest trends and timeless classics, all delivered straight to your doorstep for the ultimate shopping experience."
     },
     {
       "icon": "fa fa-youtube-play",
       "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
-      "name": "YouTube Channel",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "YouTube",
+      "text": "Our YouTube channel features spotlights on emerging NYC artists, tips on how to stay fit, and fashion shows unveiling our latest designs"
     },
     {
       "icon": "fa fa-instagram",
       "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
       "name": "Instagram",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Follow us for daily fashion inspiration and exclusive offers that will elevate your wardrobe to new heights! "
     },
     {
       "icon": "fa fa-calendar",
@@ -89,17 +89,12 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-users",
-      "link": "#partners", 
-      "name": "Partners",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-envelope-o",
+      "link": "#contact", 
+      "name": "Contact",
+      "text": "Are you interested in learning more about our brand? We'd love to hear from you."
     },
-    {
-      "icon": "fa fa-microphone",
-      "link": "#",
-      "name": "Studio",
-       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
+   
   ],
   "Testimonials": [
     {
@@ -182,8 +177,8 @@
 
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "phone": "+1 646 040 0941",
+    "email": "sales@pinwear.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
