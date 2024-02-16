@@ -74,7 +74,7 @@
       "icon": "fa fa-youtube-play",
       "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
       "name": "YouTube",
-      "text": "Our YouTube channel features spotlights on emerging NYC artists, tips on how to stay fit, and fashion shows unveiling our latest designs"
+      "text": "Featured spotlights on emerging NYC artists, tips on how to stay fit, and fashion shows unveiling our latest designs"
     },
     {
       "icon": "fa fa-instagram",
@@ -93,7 +93,7 @@
       "link": "#contact", 
       "name": "Contact",
       "text": "Are you interested in learning more about our brand? We'd love to hear from you."
-    },
+    }
    
   ],
   "Testimonials": [
