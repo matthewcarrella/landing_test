@@ -6,19 +6,19 @@
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "Pinwear grew out of my experiences as kid growing up in Jamaica. The safety pins I used there to repair clothes has now become the symbol of my fashion enterprise.  Our running man logo represents where we've started and our enthusiasm to keep moving forward with our innovative athletic apparel. ",
+    // "Why": [
+    //   "Top Notch Materials",
+    //   "Workout Ready",
+    //   "Pre-Shrunk",
+    //   "Unique Designs"
+    // ],
+    // "Why2": [
+    //   "Made to Last",
+    //   "Lorem ipsum dolor",
+    //   "Exercitation ullamco",
+    //   "Lorem ipsum dolor"
+    // ]
   },
   "Gallery": [
     {
