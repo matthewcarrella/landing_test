@@ -1,11 +1,11 @@
 import React from "react";
  
-export const Modal = ({ isOpen, onClose, children }) => {
-    if (!isOpen) return null;
+export const Modal = (props) => {
+    if (!props.isOpen) return null;
  
     return (
         <div
-            onClick={onClose}
+            onClick={props.onClose}
             style={{
                 position: "fixed",
                 top: 0,
@@ -30,7 +30,7 @@ export const Modal = ({ isOpen, onClose, children }) => {
                     boxShadow: "2px solid black",
                 }}
             >
-                {children}
+                {props.children}
             </div>
         </div>
     );
