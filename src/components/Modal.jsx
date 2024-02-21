@@ -66,19 +66,7 @@ export const Modal = (props) => {
                 justifyContent: "center",
             }}
         >
-            <div
-                style={{
-                    background: "white",
-                    height: 150,
-                    width: 240,
-                    margin: "auto",
-                    padding: "2%",
-                    border: "2px solid #000",
-                    borderRadius: "10px",
-                    boxShadow: "2px solid black",
-                }}
-            >
-                  <Slider {...settings}>
+    <Slider {...settings}>
           {props.data ? props.data.map((d, i) => (
    <div key={i}>
               <img src={d.largeImage} alt="" className="sl-img" />
@@ -92,7 +80,7 @@ export const Modal = (props) => {
         </Slider>
 
             </div>
-        </div>
+
     );
 };
  
