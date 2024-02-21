@@ -242,23 +242,11 @@ export const Events = (props) =>  {
               <button type="button" onClick={handleOpen}>
                 Click Me to Open Modal
             </button>
-            <Modal isOpen={open} onClose={handleClose}>
+            <Modal isOpen={open} onClose={handleClose} data={props.data}>
                 <>
 
 
-                  <Slider {...settings}>
-          {props.data ? props.data.map((d, i) => (
-   <div key={i}>
-              <img src={d.largeImage} alt="" className="sl-img" />
-              <h2 className="sl-title">{d.title}</h2>
-
-
-            </div>
-  )) : <div>"...Loading"</div>}
-          
-
-        </Slider>
-
+                
                    
                 </>
             </Modal>
