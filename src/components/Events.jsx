@@ -244,8 +244,22 @@ export const Events = (props) =>  {
             </button>
             <Modal isOpen={open} onClose={handleClose}>
                 <>
-                    <h1>GFG</h1>
-                    <h3>A computer science portal!</h3>
+
+
+                  <Slider {...settings}>
+          {props.data ? props.data.map((d, i) => (
+   <div key={i}>
+              <img src={d.largeImage} alt="" className="sl-img" />
+              <h2 className="sl-title">{d.title}</h2>
+
+
+            </div>
+  )) : <div>"...Loading"</div>}
+          
+
+        </Slider>
+
+                   
                 </>
             </Modal>
 
