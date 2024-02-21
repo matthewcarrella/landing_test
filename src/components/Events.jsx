@@ -246,7 +246,7 @@ export const Events = (props) =>  {
                 <>
 
 
-                
+                <h2>test</h2>
                    
                 </>
             </Modal>
