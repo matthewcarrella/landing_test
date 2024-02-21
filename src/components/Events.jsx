@@ -216,6 +216,17 @@ const Images = [
 
 
 export const Events = (props) =>  {
+
+  const [open, setOpen] = React.useState(false);
+ 
+    const handleClose = () => {
+        setOpen(false);
+    };
+ 
+    const handleOpen = () => {
+        setOpen(true);
+    };
+ 
   return (
 
   <>
@@ -230,6 +241,15 @@ export const Events = (props) =>  {
 
             </div>
   )) : <div>"...Loading"</div>}
+          <button type="button" onClick={handleOpen}>
+                Click Me to Open Modal
+            </button>
+            <Modal isOpen={open} onClose={handleClose}>
+                <>
+                    <h1>GFG</h1>
+                    <h3>A computer science portal!</h3>
+                </>
+            </Modal>
 
         </Slider>
       </div>
