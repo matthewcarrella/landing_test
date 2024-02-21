@@ -239,10 +239,7 @@ export const Events = (props) =>  {
    <div key={i}>
               <img src={d.largeImage} alt="" className="sl-img" />
               <h2 className="sl-title">{d.title}</h2>
-
-            </div>
-  )) : <div>"...Loading"</div>}
-          <button type="button" onClick={handleOpen}>
+              <button type="button" onClick={handleOpen}>
                 Click Me to Open Modal
             </button>
             <Modal isOpen={open} onClose={handleClose}>
@@ -251,6 +248,10 @@ export const Events = (props) =>  {
                     <h3>A computer science portal!</h3>
                 </>
             </Modal>
+
+            </div>
+  )) : <div>"...Loading"</div>}
+          
 
         </Slider>
       </div>
