@@ -66,19 +66,7 @@ export const Modal = (props) => {
                 justifyContent: "center",
             }}
         >
-    <Slider {...settings}>
-          {props.data ? props.data.map((d, i) => (
-   <div key={i}>
-              <img src={d.largeImage} alt="" className="sl-img" />
-              <h2 className="sl-title">{d.title}</h2>
-
-
-            </div>
-  )) : <div>"...Loading"</div>}
-          
-
-        </Slider>
-
+  
             </div>
 
     );
