@@ -12,6 +12,7 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
+    width: 100%;
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
   },
@@ -262,7 +263,7 @@ export const Events = (props) =>  {
               <img src={d.largeImage} alt="" className="sl-img" />
               <h2 className="sl-title">{d.title}</h2>
               <button type="button" onClick={handleOpen}>
-                Click Me to Open Modal
+                Click me
             </button>
            
 
@@ -285,13 +286,7 @@ export const Events = (props) =>  {
        
         <button onClick={handleClose}>close</button>
         <div>I am a modal</div>
-        <form>
-          <input />
-          <button>tab navigation</button>
-          <button>stays</button>
-          <button>inside</button>
-          <button>the modal</button>
-        </form>
+       
       </Modal>
         </div>
   </>
