@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.a15eeebc.css",
-    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.d015bfd9.js",
+    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.c523ac3f.js",
     "static/media/slick.svg": "https://matthewcarrella.github.io/landing_test/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "https://matthewcarrella.github.io/landing_test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "https://matthewcarrella.github.io/landing_test/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "https://matthewcarrella.github.io/landing_test/index.html",
     "static/media/slick.woff": "https://matthewcarrella.github.io/landing_test/static/media/slick.295183786cd8a1389865.woff",
     "main.a15eeebc.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.a15eeebc.css.map",
-    "main.d015bfd9.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.d015bfd9.js.map"
+    "main.c523ac3f.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.c523ac3f.js.map"
   },
   "entrypoints": [
     "static/css/main.a15eeebc.css",
-    "static/js/main.d015bfd9.js"
+    "static/js/main.c523ac3f.js"
   ]
 }
