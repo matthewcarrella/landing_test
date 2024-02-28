@@ -242,12 +242,10 @@ export const Events = (props) =>  {
               <button type="button" onClick={handleOpen}>
                 Click Me to Open Modal
             </button>
-            <Modal isOpen={open} onClose={handleClose} data={props.data}>
+           <Modal isOpen={open} onClose={handleClose}>
                 <>
-
-                  <h2>test</h2>
-
-                   
+                    <h1>GFG</h1>
+                    <h3>test</h3>
                 </>
             </Modal>
 
