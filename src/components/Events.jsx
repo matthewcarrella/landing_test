@@ -12,7 +12,7 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    width: 100%;
+    width: '100%',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
   },
