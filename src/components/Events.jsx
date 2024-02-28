@@ -1,9 +1,22 @@
 import React from "react";
 import Slider from "react-slick";
-import Modal from "@material-ui/core/Modal";
 import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
+
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
+
 
 const settings = {
   dots: true,
@@ -227,6 +240,12 @@ export const Events = (props) =>  {
     const handleOpen = () => {
         setOpen(true);
     };
+
+     function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    return;
+  }
+
  
  
   return (
@@ -257,25 +276,23 @@ export const Events = (props) =>  {
     </div>
    <div>
     <Modal
-                onClose={handleClose}
-                open={open}
-                style={{
-                    position: "absolute",
-                    border: "2px solid #000",
-                    backgroundColor: "lightgray",
-                    boxShadow: "2px solid black",
-                    height: 150,
-                    width: 240,
-                    margin: "auto",
-                    padding: "2%",
-                    color: "white",
-                }}
-            >
-                <>
-                    <h2>GFfdfG</h2>
-                    <p>tredfdst!</p>
-                </>
-            </Modal>
+        isOpen={open}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={handleClose}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+       
+        <button onClick={handleClose}>close</button>
+        <div>I am a modal</div>
+        <form>
+          <input />
+          <button>tab navigation</button>
+          <button>stays</button>
+          <button>inside</button>
+          <button>the modal</button>
+        </form>
+      </Modal>
         </div>
   </>
 
