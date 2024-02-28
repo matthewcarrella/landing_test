@@ -232,26 +232,7 @@ export const Events = (props) =>  {
   return (
 
   <>
-  <Modal
-                onClose={handleClose}
-                open={open}
-                style={{
-                    position: "absolute",
-                    border: "2px solid #000",
-                    backgroundColor: "lightgray",
-                    boxShadow: "2px solid black",
-                    height: 150,
-                    width: 240,
-                    margin: "auto",
-                    padding: "2%",
-                    color: "white",
-                }}
-            >
-                <>
-                    <h2>GFfdfG</h2>
-                    <p>trest!</p>
-                </>
-            </Modal>
+
     <div className="sl-content">
       <h1 className="sl-header">Products</h1>
       <div className="sl-container">
@@ -274,6 +255,28 @@ export const Events = (props) =>  {
         
       </div>
     </div>
+   <div>
+    <Modal
+                onClose={handleClose}
+                open={open}
+                style={{
+                    position: "absolute",
+                    border: "2px solid #000",
+                    backgroundColor: "lightgray",
+                    boxShadow: "2px solid black",
+                    height: 150,
+                    width: 240,
+                    margin: "auto",
+                    padding: "2%",
+                    color: "white",
+                }}
+            >
+                <>
+                    <h2>GFfdfG</h2>
+                    <p>tredfdst!</p>
+                </>
+            </Modal>
+        </div>
   </>
 
   );
