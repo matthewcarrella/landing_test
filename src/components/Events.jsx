@@ -234,6 +234,12 @@ export const Events = (props) =>  {
     <div className="sl-content">
       <h1 className="sl-header">Products</h1>
       <div className="sl-container">
+      <Modal isOpen={open} onClose={handleClose}>
+                <>
+                    <h1>GFG</h1>
+                    <h3>test</h3>
+                </>
+            </Modal>
         <Slider {...settings}>
           {props.data ? props.data.map((d, i) => (
    <div key={i}>
@@ -242,12 +248,7 @@ export const Events = (props) =>  {
               <button type="button" onClick={handleOpen}>
                 Click Me to Open Modal
             </button>
-           <Modal isOpen={open} onClose={handleClose}>
-                <>
-                    <h1>GFG</h1>
-                    <h3>test</h3>
-                </>
-            </Modal>
+           
 
             </div>
   )) : <div>"...Loading"</div>}
