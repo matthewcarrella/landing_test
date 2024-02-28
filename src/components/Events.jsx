@@ -252,7 +252,7 @@ export const Events = (props) =>  {
         </Slider>
         <Modal isOpen={open} onClose={handleClose}>
                 <>
-                    <h1>GFG</h1>
+                    <h1>GFGd</h1>
                     <h3>test</h3>
                 </>
             </Modal>
