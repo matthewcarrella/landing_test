@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Modal } from "./Modal";
+import Modal from "@material-ui/core/Modal";
 import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
@@ -250,10 +250,24 @@ export const Events = (props) =>  {
           
 
         </Slider>
-        <Modal isOpen={open} onClose={handleClose}>
+        <Modal
+                onClose={handleClose}
+                open={open}
+                style={{
+                    position: "absolute",
+                    border: "2px solid #000",
+                    backgroundColor: "lightgray",
+                    boxShadow: "2px solid black",
+                    height: 150,
+                    width: 240,
+                    margin: "auto",
+                    padding: "2%",
+                    color: "white",
+                }}
+            >
                 <>
-                    <h1>GFGd</h1>
-                    <h3>test</h3>
+                    <h2>GFG</h2>
+                    <p>trest!</p>
                 </>
             </Modal>
       </div>
