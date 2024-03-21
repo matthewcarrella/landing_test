@@ -1,9 +1,6 @@
 import React from 'react';
 import { ZoomMtg } from '@zoom/meetingsdk';
 
-ZoomMtg.preLoadWasm();
-ZoomMtg.prepareWebSDK();
-
 
 export const Stream = (props) => {
 
