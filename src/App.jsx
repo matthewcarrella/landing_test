@@ -10,6 +10,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Partners } from "./components/partners";
 import { Events } from "./components/Events";
+import { Stream } from "./components/Stream";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -33,11 +34,13 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Events data={landingPageData.Gallery} />
+      <Stream/>
       {/*<Gallery data={landingPageData.Gallery} />*/}
      {/* <Testimonials data={landingPageData.Testimonials} />
       <Partners data={landingPageData.Partners} />
       <Team data={landingPageData.Team} />*/}
       <Contact data={landingPageData.Contact} />
+
 
 
     </div>
