@@ -10,14 +10,11 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Partners } from "./components/partners";
 import { Events } from "./components/Events";
-import { Stream } from "./components/Stream";
+
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import { ZoomMtg } from '@zoom/meetingsdk';
 
-ZoomMtg.preLoadWasm();
-ZoomMtg.prepareWebSDK();
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
