@@ -37,6 +37,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Events data={landingPageData.Gallery} />
+      <iframe width="560" height="315" src="https://youtube.com/live/zK-aiL2WqMg?feature=share" frameborder="0" allowfullscreen></iframe>
 
       {/*<Gallery data={landingPageData.Gallery} />*/}
      {/* <Testimonials data={landingPageData.Testimonials} />
