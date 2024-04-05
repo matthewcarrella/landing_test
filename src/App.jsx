@@ -47,6 +47,7 @@ const App = () => {
       <Partners data={landingPageData.Partners} />
       <Team data={landingPageData.Team} />*/}
       <Contact data={landingPageData.Contact} />
+      <LiveStream/>
 
 
 
