@@ -8,7 +8,17 @@
   "About": {
     "paragraph": "Pinwear grew out of my experiences as kid growing up in Jamaica. The safety pins I used there to repair clothes has now become the symbol of my fashion enterprise.  Our running man logo represents where we've started and our enthusiasm to keep moving forward with our innovative athletic apparel.",
     "paragraph2": "Now based in NYC, we have designed a product line that exemplifies the highest quality in men's and women's activewear. All items are made from 100% organic cotton and pre-shrunk. With fabric that breathes and stays dry, you'll have nothing holding you back at the gym, basketball court, or track. Our line of men's and women's tshirts feature graphics that will make you stand out. Men's shorts and women's shorts and leggings are light and comfortable, great for any kind of workout.",
-    "paragraph3": "Besides making high quality apparell, Pinwear is building partnerships to promote local talent, both in sports and entertainment. Follow us on social media to hear about our next exciting event!"
+    "paragraph3": "Besides making high quality apparell, Pinwear is building partnerships to promote local talent, both in sports and entertainment. Follow us on social media to hear about our next exciting event!",
+    "Why": ["a", "b", "c"],
+    "Why2": ["d", "e", "f"]
+
+  },
+  "Talent": {
+    "paragraph": "Pinwear's Discovery Talent Movement is an initiave focused on helping musicians, artists, and entertainers reach their full potential.",
+    "paragraph2": "Starting in April, we will be holding bi-monthly talent showcases featuring up and coming talent.",
+    "paragraph3": "We also have opportunties for talented individuals to work with us in building brand awareness. ",
+    "Why": ["Bi-monthly talent showcases", "Rehearsal/Recording Space", "Record Contracts"],
+    "Why2": ["Influencers/Content Creators", "Graphic Designers", "Athletes"]
 
   },
   "Gallery": [

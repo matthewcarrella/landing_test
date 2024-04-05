@@ -10,6 +10,8 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Partners } from "./components/partners";
 import { Events } from "./components/Events";
+import { Talent } from "./components/Talent";
+import { LiveStream } from "./components/LiveStream";
 
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -37,7 +39,8 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Events data={landingPageData.Gallery} />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UC0PD4GCYHcvfih7yZsa8swQ" frameborder="0" allowfullscreen></iframe>
+      <Talent data={landingPageData.Talent} />
+     
 
       {/*<Gallery data={landingPageData.Gallery} />*/}
      {/* <Testimonials data={landingPageData.Testimonials} />
