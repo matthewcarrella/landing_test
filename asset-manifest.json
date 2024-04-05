@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://localhost:3000/static/css/main.1b196c21.css",
-    "main.js": "https://localhost:3000/static/js/main.d5cffdcf.js",
-    "static/media/slick.svg": "https://localhost:3000/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "https://localhost:3000/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "https://localhost:3000/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "index.html": "https://localhost:3000/index.html",
-    "static/media/slick.woff": "https://localhost:3000/static/media/slick.295183786cd8a1389865.woff",
-    "main.1b196c21.css.map": "https://localhost:3000/static/css/main.1b196c21.css.map",
-    "main.d5cffdcf.js.map": "https://localhost:3000/static/js/main.d5cffdcf.js.map"
+    "main.css": "https://matthewcarrella.github.io/landing_test/static/css/main.a15eeebc.css",
+    "main.js": "https://matthewcarrella.github.io/landing_test/static/js/main.d5cffdcf.js",
+    "static/media/slick.svg": "https://matthewcarrella.github.io/landing_test/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "https://matthewcarrella.github.io/landing_test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "https://matthewcarrella.github.io/landing_test/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "https://matthewcarrella.github.io/landing_test/index.html",
+    "static/media/slick.woff": "https://matthewcarrella.github.io/landing_test/static/media/slick.295183786cd8a1389865.woff",
+    "main.a15eeebc.css.map": "https://matthewcarrella.github.io/landing_test/static/css/main.a15eeebc.css.map",
+    "main.d5cffdcf.js.map": "https://matthewcarrella.github.io/landing_test/static/js/main.d5cffdcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b196c21.css",
+    "static/css/main.a15eeebc.css",
     "static/js/main.d5cffdcf.js"
   ]
 }
