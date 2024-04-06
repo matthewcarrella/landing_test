@@ -60,9 +60,15 @@
     },
     {
       "icon": "fa fa-instagram",
-      "link": "https://www.youtube.com/channel/UCwhehdJGixE2mmcsEPg5Fhw",
+      "link": "https://www.instagram.com/pinwearsports/?hl=en",
       "name": "Instagram",
       "text": "Follow us for daily fashion inspiration and exclusive offers that will elevate your wardrobe to new heights! "
+    },
+    {
+      "icon": "fa fa-calendar",
+      "link": "https://www.eventbrite.com/o/pinwear-79615171173",
+      "name": "Events",
+      "text": "Pinwear sponsored music, fashion, and fitness events are now being scheduled"
     }
 
    
