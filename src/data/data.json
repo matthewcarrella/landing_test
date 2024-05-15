@@ -160,27 +160,49 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+    "Features": [
     {
       "icon": "fa fa-eye",
-      "title": "Fashion",
-      "text": "Designs that fuse Jamaican culture and American streetwear"
+      "title": "Education",
+      "text": "Bringing the most essential information about mental health conditions to those who need it most"
     },
     {
       "icon": "fa fa-futbol-o",
-      "title": "Sports",
-      "text": "Durable and light to maximize performance"
+      "title": "Support",
+      "text": "Fostering acceptance and encouragement among those impacted by mental health challenges"
     },
     {
       "icon": "fa fa-heartbeat",
-      "title": "Fitness",
-      "text": "Comfort that promotes an active lifestyle"
+      "title": "Outreach",
+      "text": "Working with community institutions and leaders to spread awareness, reduce stigma, and find creative solutions"
     },
     {
       "icon": "fa fa-music",
-      "title": "Music",
-      "text": "Looks that capture the artist's flair"
+      "title": "Wellness",
+      "text": "Promoting mental health as a part of overall mind/body wellness"
     }
   ]
+  // "Features": [
+  //   {
+  //     "icon": "fa fa-eye",
+  //     "title": "Fashion",
+  //     "text": "Designs that fuse Jamaican culture and American streetwear"
+  //   },
+  //   {
+  //     "icon": "fa fa-futbol-o",
+  //     "title": "Sports",
+  //     "text": "Durable and light to maximize performance"
+  //   },
+  //   {
+  //     "icon": "fa fa-heartbeat",
+  //     "title": "Fitness",
+  //     "text": "Comfort that promotes an active lifestyle"
+  //   },
+  //   {
+  //     "icon": "fa fa-music",
+  //     "title": "Music",
+  //     "text": "Looks that capture the artist's flair"
+  //   }
+  // ]
   
 }
